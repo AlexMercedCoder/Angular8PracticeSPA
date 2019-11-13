@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam|Turret+Road&display=swap');
+
+$primary: gold;
+
+body {
+    margin: 0;
+    font-family: 'Be Vietnam', 'sans-serif';
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background: $primary;
+    padding: 1em 0;
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    a.logo {
+        font-weight: bold;
+        font-family: 'Turret Road', cursive;
+        margin-left: 6px;
+    }
+
+    nav {
+        float: right;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+
+            li a {
+                padding: 1em;
+
+                &:hover {
+                    background: darken($primary, 10%);
+                }
+            }
+        }
+    }
+}
+
+h1 {
+    margin-top: 2em;
+}
+
+.mobilemenu {display: none;}
+
+
+@media only screen and (max-width: 600px) {
+
+    nav {display: none; }
+    .mobilemenu {display: block; background-color: $primary; text-align: center;
+
+        a {margin: 3px 10px; color: black; text-decoration: none;
+
+            &:hover {
+                background: darken($primary, 10%);
+            }}}
+
+}

@@ -1,0 +1,21 @@
+.hero { background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://diro.umontreal.ca/public/FAS/diro/Images/accueil/artificial-intelligence.jpg'); width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+padding-bottom: 20px; margin-bottom: 20px;}
+
+.herotitle {text-align: center; margin: 0 0 10px 0; padding-top: 45px;font-size: 700%; color: white; font-family: 'Turret Road', cursive;}
+
+.herosubtitle {text-align: center; margin: 10px; font-size: 400%; color: white; font-family: 'Turret Road', cursive;}
+
+.summary {text-align: center; padding: 30px; font-size: 400%}
+
+hr {width: 80%;}
+
+@media only screen and (max-width: 600px) {
+    .herotitle {font-size: 400%;}
+    .herosubtitle {font-size: 150%;}
+    .summary {font-size: 200%;}
+
+}

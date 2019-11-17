@@ -1,0 +1,22 @@
+* {box-sizing: border-box;}
+
+.footer {background-color: black; color: gold; display: flex;
+
+    div {
+
+        width: 50%; padding: 10px; text-align: center;
+
+        button {width: 80%; height: 100%; background-color: gold; color: black; border-radius: 10px; border-style: none; padding: 20px;}
+
+        ul li {list-style: none; text-transform: uppercase; font-size: 1.5em;
+
+            a {text-decoration: none; color: gold;
+
+                &:hover {color: white;}}}
+    }}
+
+.first {background-color: red; border: 3px inset blue}
+
+.second {background-color: red; border: 6px ridge white}
+
+.third {background-color: midnightblue; border: 3px groove white}
